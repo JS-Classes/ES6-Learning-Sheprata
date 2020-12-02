@@ -34,3 +34,13 @@ let a = b.match(re2);
 //let d = e.matchAll(re2)
 
 console.log(a);
+
+let message = "With some of the higher educational institutions being leaders in excellent teaching and research activities. With some of the teaching staff that have been awarded with Nobel prizes.";
+let regexVowels = /[aeiou]/gim; //a or b or c any character
+let matches =message.match(regexVowels);
+
+//\b\w{3}\b - boundary word
+
+console.log(matches);
+
+
