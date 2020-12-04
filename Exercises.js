@@ -25,16 +25,6 @@ function printmultiply(num,range=10)
 printmultiply(2,7);
 
 // 3. Program to print multilication table for numbers from m to n.
-function numrange(m,y,range=10){
-for(let i =m; i<y; i++) {
-    console.log(`${i}`);
-    for(let x = 1; x<=range; x++)
-    {
-        let mul = m*x;
-        console.log(`${i}*${x}=${mul}`);
-    }
-}}
-
 function numberRange(k,j,range=10) {
     for(let i = k; i<=j; i++)
     {
