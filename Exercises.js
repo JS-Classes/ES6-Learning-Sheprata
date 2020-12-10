@@ -71,7 +71,7 @@ function countSentences(pragrph){
   const wordarray = Array.from(word);
   //console.log(`no. of words ${wordarray}`);
     for (let i = 0; i < word.length; i++) {
-    console.log(`In ${i+1} position word : there are ${wordarray[i].length} characters`);
+    console.log(`In ${i+1} position of word : there are ${wordarray[i].length} characters`);
     }
 }
 
@@ -91,6 +91,9 @@ function countSpecialCharacters(pragrph){
 
   countSpecialCharacters(pragrph);
 
- // function countVowelsConsonants(pragrph){
-    
-  //}
+  function countVowelsConsonants(pragrph){
+    const count = pragrphObj.match(/[aeiou]/gi).length;
+    console.log(`count of vowel is ${count}`);
+  }
+
+  countVowelsConsonants(pragrph);
