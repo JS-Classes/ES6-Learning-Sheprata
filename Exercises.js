@@ -91,9 +91,51 @@ function countSpecialCharacters(pragrph){
 
   countSpecialCharacters(pragrph);
 
+  
+
+  countVowelsConsonants(pragrph);
+
   function countVowelsConsonants(pragrph){
     const count = pragrphObj.match(/[aeiou]/gi).length;
     console.log(`count of vowel is ${count}`);
   }
 
   countVowelsConsonants(pragrph);
+
+  //find normal distribution from set of random numbers
+//f(x)= 
+
+Number = [1,2,3,4];
+function normaldistribution(number)
+{
+  
+}
+
+//find a random no between provided m to n
+
+let getRandom = (m,n) => m + Math.random() * (n-m);
+
+console.log(getRandom(10,20));
+
+//Find a random string of particular length
+//0-9 a-z'
+
+function randomString(length){
+for (let i = 0; i < array.length; i++) {
+    //use ascii
+    
+}
+}
+
+function getRandomString(length) {
+    var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var result = '';
+    for ( var i = 0; i < length; i++ ) {
+        result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+    }
+    return result;
+}
+
+
+//do same randomstring with another approch
+
